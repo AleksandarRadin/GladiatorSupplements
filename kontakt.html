@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gladiator Supplements</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <header>
+        <h1>Gladiator Supplements</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Početna</a></li>
+            <li><a href="proizvodi.html">Proizvodi</a></li>
+            <li><a href="onama.html">O nama</a></li>
+            <li><a href="#">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <section id="dinamickiSadrzaj"></section>
+
+    <form id="forma" action="#" method="post">
+
+        <label for="Ime">Ime:</label>
+        <input type="text" id="ime" name="ime" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="brTel">Broj telefona:</label>
+        <input type="text" id="brTel" name="brTel" required>
+
+        <label for="proizvod">Izabrani proizvod:</label>
+        <select id="proizvod" name="proizvod">
+            <option value="protein">Protein</option>
+            <option value="kreatin">Kreatin</option>
+            <option value="glutamin">Glutamin</option>
+        </select>
+
+        <label for="Poruka">Poruka:</label>
+        <textarea id="poruka" name="poruka" rows="4"></textarea>
+
+        <button type="submit">Pošalji</button>
+    </form>
+
+    <script src="main.js"></script>
+</body>
+</html>
